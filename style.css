@@ -1,0 +1,74 @@
+body{
+    border:solid;
+}
+.header{
+    background-color: rgb(43, 226, 150);
+    justify-content: space-between;
+    display: flex;
+    padding: 35px;
+    color: #9400D3;
+}
+.facts{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:#7FFF00;
+    color: #D2691E;
+}
+.Imgs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #00FFFF;
+    padding:100px ;
+}
+p,h2{
+    text-align: center;
+    color: #DC143D;
+}
+.Follow{
+    background-color: #FF7F50;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.follow{
+    background-color: #FF7F50;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.follow p {
+    color: bisque;
+}
+.aboutMe{
+    background-color: #00BFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+*{
+    margin: auto;
+}
+.img1{
+    position: relative;
+}
+.img1 h2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    opacity: 0;
+}
+a:link{
+    color: #9400D3;
+}
+a:visited{
+    color: white;
+}
+.img1:hover img{
+    opacity: 0.2;
+}
+.img1:hover h2{
+    opacity: 1;
+}
